@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Catalog</title>
+</head>
+
+<body>
+  <div id="catalog" />
+
+  <!-- To use the React Specimen you need Babel Standalone -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Use the development version to get helpful errors in your console -->
+<script src="https://unpkg.com/catalog@3/dist/catalog-standalone.development.js"></script>
+<!-- Use the minified production version to get optimal performance -->
+<!-- <script src="https://unpkg.com/catalog@3/dist/catalog-standalone.min.js"></script> -->
+
+  <script>
+    Catalog.render({
+      title: 'Broadening Horizons Style Guide',
+      // Replace the URL below with the URL of your Google Fonts stylesheet.
+      styles: ['https://fonts.googleapis.com/css?family=Nobile:400,500|Open+Sans:300,400','docs/basestyles.css'],
+      theme: {
+        background: "#FAFAFA",
+        pageHeadingBackground: "#0097a7",
+        linkColor: "#0097a7",
+        brandColor: "#0097a7",
+        navBarBackground: "#F2F2F2",
+        navBarTextColor: "#006064",
+        sidebarColorActive: "#D1312E",
+        sidebarColorText: "#0097a7",
+        sidebarColorTextActive: "#333",
+        sidebarColorHeading: "#0097a7",
+      },
+      pages: [
+        {
+          path: '/',             // The path where the page can be accessed
+          title: 'Introduction', // The page title
+          src: 'docs/intro.md'   // Path to the Markdown document
+        },
+        {
+          path: '/colours',             // The path where the page can be accessed
+          title: 'Colours', // The page title
+          src: 'docs/colours.md'   // Path to the Markdown document
+        },
+        {
+          path: '/typography',             // The path where the page can be accessed
+          title: 'Typography', // The page title
+          src: 'docs/typography.md'   // Path to the Markdown document
+        },
+        {
+          path: '/components',             // The path where the page can be accessed
+          title: 'UI Components', // The page title
+          src: 'docs/components.md'   // Path to the Markdown document
+        },
+      ]
+    }, document.getElementById('catalog'));
+  </script>
+</body>
+
+</html>

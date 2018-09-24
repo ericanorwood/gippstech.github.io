@@ -1,0 +1,68 @@
+.h1style {
+
+}
+
+h2.h2style {
+  font-family: "nobile", sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h2.h2style-light {
+  font-family: "open sans", sans-serif;
+  font-size: 48px;
+  letter-spacing: -0.5px;
+  font-weight: 300;
+}
+
+h4.h4style {
+  font-family: "nobile", sans-serif;
+  font-size: 28px;
+  letter-spacing: 2.5px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.buttonstyle01 {
+  display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "open sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0061ea;
+  padding: 10px 20px;
+}
+
+.buttonstyle02 {
+  display: inline-block;
+  margin-bottom: 0;
+  font-family: "open sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #0061ea;
+  background-image: linear-gradient(to right, #0061ea 0%, #00eada 100%);
+  padding: 10px 20px;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  text-decoration: none;
+}
