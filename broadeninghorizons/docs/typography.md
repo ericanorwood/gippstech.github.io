@@ -14,7 +14,7 @@ The font used is [Nobile](https://fonts.google.com/specimen/Nobile?selection.fam
 ```
 
 ## Specific heading styling
-Any additional specific styles for headings are specified below. Please see [basestyles.css](/docs/basestyles.css) for the CSS code. Otherwise, headings default to the styling specified above.
+Any additional specific styles for headings are specified below. Please see [basestyles.css](broadeninghorizons/docs/basestyles.css) for the CSS code. Otherwise, headings default to the styling specified above.
 
 ### H2 alternates
 ```html|showSource,span-3
